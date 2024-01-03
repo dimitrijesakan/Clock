@@ -13,6 +13,8 @@ function updateTime(){
         seconds = '0' + seconds;
     time = hours + ":" + minutes + ":" + seconds;
     document.getElementById("time").innerHTML = time;
+    if(seconds % 10 == 9)
+        document.getElementById("seconds").style.transform = "translateY(-100px)";
 }
-
+document.getElementById("seconds").style.transform = "translateY(-100px)";
 setInterval(updateTime, 1000);

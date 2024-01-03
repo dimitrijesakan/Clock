@@ -27,3 +27,7 @@ body{
 #time{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#seconds{
+    display: inline-block;
+    transition: transform 0.5s;
+}
