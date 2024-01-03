@@ -13,6 +13,7 @@ body{
 
 .container {
     background-color: rgb(120, 120, 211);
+    border-radius: 10px;
     height: 250px;
     width: 1000px;
     padding: 0;
@@ -22,4 +23,7 @@ body{
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 5px rgb(0, 140, 255);
+}
+#time{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
